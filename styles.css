@@ -88,6 +88,10 @@ body {
 .scroller[data-speed="fast"]:hover{
     --_animation-play-state: paused;
 }
+.scroller[data-speed="slow"]:hover{
+    --_animation-play-state: paused;
+}
+
 
 @keyframes scroll {
   to {
